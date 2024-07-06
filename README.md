@@ -1,0 +1,2 @@
+# WebAssemblyMonoRepo
+WebAssembly系のモノ書きすぎたのでモノレポでまとめる
