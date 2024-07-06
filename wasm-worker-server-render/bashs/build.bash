@@ -1,0 +1,1 @@
+tinygo build -o ./app/worker.wasm -target wasi ./src/main.go

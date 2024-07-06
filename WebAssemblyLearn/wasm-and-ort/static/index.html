@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div id="app"></div>
+    <script type="module">
+        import init,{greet} from "../web/pkg/wasm_and_ort.js"
+        init()
+
+        document.querySelector("#app").innerHTML = `<button id="greet">greet</button>`;
+        document.getElementById("greet").addEventListener("click", () => {
+        greet();
+        });
+    </script>
+</body>
+</html>
