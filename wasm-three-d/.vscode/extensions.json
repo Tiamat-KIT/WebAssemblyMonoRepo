@@ -1,0 +1,13 @@
+{
+    // Recommended extensions for Rust development
+    "recommendations": [
+        "rust-lang.rust",
+        "matklad.rust-analyzer",
+        "rust-lang.vscode-rust-test-adapter",
+        "vadimcn.vscode-lldb",
+        "swellaby.vscode-rust-test-adapter",
+        "JScearcy.rust-doc-viewer",
+        "serayuzgur.crates",
+        "tamasfe.even-better-toml",
+    ],
+}
